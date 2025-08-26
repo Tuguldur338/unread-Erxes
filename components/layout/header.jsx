@@ -7,6 +7,9 @@ import { FaTwitter } from "react-icons/fa";
 
 const Header = () => {
     return <div className="main-header-content">
+                <div className="main-header-background"></div>
+
+
                 <div className="header-image">
                     <Image 
                         src="/images/menu-icon.svg"
@@ -41,15 +44,15 @@ const Header = () => {
                     </p>
                 </div>
 
-                <div>
+                <div className="app-icons">
                     <nav>
                         <a href="https://www.facebook.com/UnreadToday/"><FaFacebookSquare size={16} className="facebook-icon" /></a>
 
                         <a href="https://www.instagram.com/UnreadToday"><CiInstagram size={16} className="instagram-icon" /></a>
 
-                        <a href="https://www.linkedin.com/UnreadToday"><FaLinkedinIn size={16} className="linkedin-icon" /></a>
-
                         <a href="https://x.com/UnreadToday"><FaTwitter size={16} className="twitter-icon" /></a>
+
+                        <a href="https://www.linkedin.com/UnreadToday"><FaLinkedinIn size={16} className="linkedin-icon" /></a>
                     </nav>
                 </div>
             </div>
