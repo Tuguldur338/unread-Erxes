@@ -1,0 +1,166 @@
+body {
+  overflow-x: hidden;
+}
+
+.main-header-content {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url("/images/header-image.jpg");
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  padding: 40px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 5px 40px 20px rgba(0, 0, 0, 0.5);
+}
+
+.header-image {
+  position: relative;
+  left: 330px;
+  bottom: 1040px;
+}
+
+.header-logo {
+  position: relative;
+  bottom: 1040px;
+  left: 510px;
+  width: 165px;
+  height: 18px;
+  border-right: 1px solid white;
+}
+
+.unread-logo {
+  max-width: 100%;
+}
+
+.header-search-button {
+  display: flex;
+  position: relative;
+  bottom: 1023px;
+  left: 510px;
+}
+
+.search-button {
+  color: white;
+  width: 100%;
+}
+
+.header-input {
+  background-color: transparent;
+  border: none;
+  position: relative;
+  right: 20px;
+  top: 17px;
+  height: fit-content;
+}
+
+.header-input:active {
+  border: transparent;
+}
+
+.transparent {
+  opacity: 0.5;
+}
+
+.next-article {
+  position: relative;
+  bottom: 1040px;
+  left: 860px;
+  font-size: 12px;
+}
+
+.next-article-category {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: white;
+  margin-left: 5px !important;
+}
+
+.chip {
+  display: inline-block;
+  padding: 8px 18px;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-weight: 500;
+  color: #fff;
+  font-size: 0.8rem;
+  margin-left: 10px;
+}
+
+.symbols {
+  color: blue;
+  font-size: 1.26rem;
+  animation: fadein 1.5s linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes fadein {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.facebook-icon,
+.instagram-icon,
+.twitter-icon,
+.linkedin-icon {
+  position: relative;
+  bottom: 1040px;
+  left: 1000px;
+  opacity: 0.5;
+  cursor: pointer;
+  margin: 0 0 0 10px;
+}
+
+.facebook-icon,
+.instagram-icon,
+.twitter-icon,
+.linkedin-icon {
+  position: relative;
+  bottom: 1040px;
+  left: 1000px;
+  opacity: 0.5;
+  cursor: pointer;
+  margin: 0 0 0 10px;
+  transition: all 0.3s ease;
+  font-size: 1.5rem;
+}
+
+.facebook-icon:hover {
+  color: #1877f2;
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+.instagram-icon:hover {
+  background: radial-gradient(
+    circle at 30% 100%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  border-radius: 2px;
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+.twitter-icon:hover {
+  color: #1da1f2;
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+.linkedin-icon:hover {
+  color: #0a66c2;
+  opacity: 1;
+  transform: scale(1.2);
+}

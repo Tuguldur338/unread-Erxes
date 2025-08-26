@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+}
+
+.main-hero-content {
+  position: relative;
+  display: flex;
+  bottom: 1000px;
+  left: 560px;
+}
+
+.hero-image {
+  border-radius: 20px;
+}
